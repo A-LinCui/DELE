@@ -1,0 +1,17 @@
+arch_network_cfg:
+  arch_embedder_cfg: {emb_hid: 100, num_hid: 100, num_layers: 1, use_hid: true}
+  compare_loss_type: margin_linear
+  compare_margin: 0.1
+  mlp_dropout: 0.1
+  mlp_hiddens: []
+  optimizer: {lr: 0.001, type: Adam}
+  scheduler: null
+batch_size: 512
+choose_pair_criterion: random
+compare: true
+compare_threshold: 0.0
+epochs: 200
+finetune_epochs: 200
+low_fidelity_normalize: true
+finetune_only_mlp: false
+max_compare_ratio: 4.0
