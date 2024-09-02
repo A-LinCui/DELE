@@ -43,3 +43,17 @@ A tutorial on NAS-Bench-201 is provided under ``./example``. Please check ``./ex
 👍 Contributions
 -----------------
 We welcome contributions of all kind.
+
+👋 Citation
+-----------------
+```
+@inproceedings{zhao2023dynamic,
+  title={Dynamic ensemble of low-fidelity experts: Mitigating nas “cold-start”},
+  author={Zhao, Junbo and Ning, Xuefei and Liu, Enshu and Ru, Binxin and Zhou, Zixuan and Zhao, Tianchen and Chen, Chen and Zhang, Jiajin and Liao, Qingmin and Wang, Yu},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={9},
+  pages={11316--11326},
+  year={2023}
+}
+```
